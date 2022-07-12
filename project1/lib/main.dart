@@ -53,6 +53,7 @@ class MyAppState extends State<MyApp> {
       }
     ];
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
           title: Text("My First App"),
